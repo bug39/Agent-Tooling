@@ -4,7 +4,6 @@ Exploratory pattern detection for Gemini auto-suggestion.
 Detects when Claude is doing expensive exploratory work and suggests
 using Gemini to offload token costs.
 """
-
 import time
 import os
 from dataclasses import dataclass, field
